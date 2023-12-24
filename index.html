@@ -13,53 +13,66 @@
 </head>
 <body>
 <header>
-    <a href="https://it-incubator.io/" target="_blank">
-        <img src="./assets/images/logo.svg" alt="logo">
-    </a>
-    <button class="my-btn">login</button>
+    <div class="container">
+        <div class="wrapper-header">
+            <a href="https://it-incubator.io/" target="_blank">
+                <img class="logo-img" src="./assets/images/logo.svg" alt="logo">
+            </a>
+            <button class="my-btn">login</button>
+        </div>
+    </div>
 </header>
-<section>
-    <h1 class="main-title">html+css. верстка</h1>
-    <div class="card">
-        <h2>теория html + css. Структура приложения</h2>
-        <img src="./assets/images/img-1.svg" alt="text">
-        <p>Проговорим о том, что такое HTML и CSS. Создадим проект и рассмотрим его файловую структуру. Научимся
-            работать с макетом в Figma. Изучим 13 самых используемых тегов. Напишем HTML-структуру нашего
-            приложения.</p>
-    </div>
-    <div class="card">
-        <h2>Стилизация HTML-элементов</h2>
-        <img src="./assets/images/img-2.svg" alt="text">
-        <p>Подключим шрифты. Рассмотрим самый правильный способ добавления стилей. Рассмотрим синтаксис написания
-            стилей. Напишем стили для элементов. Изучим популярные свойства . Посмотрим как располагать элементы,
-            используя Flexbox.</p>
-    </div>
-    <div class="card">
-        <h2>Адаптив. Медиазапросы</h2>
-        <img src="./assets/images/img-3.svg" alt="text">
-        <p>Сделаем наше приложение адаптивным, чтобы оно так же хорошо выглядело на планшетах и мобильных телефонах.
-            Рассмотрим как работает св-во flex-wrap. Научимся делать адаптив, используя м едиазапросы.</p>
+<section class="main">
+    <div class="container">
+        <h1 class="main-title">html+css. верстка</h1>
+        <div class="wrapper-cards">
+            <div class="card">
+                <h2>теория html + css. Структура приложения</h2>
+                <img src="./assets/images/img-1.svg" alt="text">
+                <p>Проговорим о том, что такое HTML и CSS. Создадим проект и рассмотрим его файловую структуру. Научимся
+                    работать с макетом в Figma. Изучим 13 самых используемых тегов. Напишем HTML-структуру нашего
+                    приложения.</p>
+            </div>
+            <div class="card">
+                <h2>Стилизация HTML-элементов</h2>
+                <img src="./assets/images/img-2.svg" alt="text">
+                <p>Подключим шрифты. Рассмотрим самый правильный способ добавления стилей. Рассмотрим синтаксис
+                    написания
+                    стилей. Напишем стили для элементов. Изучим популярные свойства . Посмотрим как располагать
+                    элементы,
+                    используя Flexbox.</p>
+            </div>
+            <div class="card">
+                <h2>Адаптив. Медиазапросы</h2>
+                <img src="./assets/images/img-3.svg" alt="text">
+                <p>Сделаем наше приложение адаптивным, чтобы оно так же хорошо выглядело на планшетах и мобильных
+                    телефонах.
+                    Рассмотрим как работает св-во flex-wrap. Научимся делать адаптив, используя м едиазапросы.</p>
+            </div>
+        </div>
     </div>
 </section>
 <footer>
-    <ul>
-        <li><a href="#">
-            <img src="./assets/images/home-icon.svg" alt="">
-            home
-        </a></li>
-        <li><a href="#">
-            <img src="./assets/images/computer-icon.svg" alt="">
-            All Courses
-        </a></li>
-        <li><a href="#">
-            <img src="./assets/images/sandbox-icon.svg" alt="">
-            Sandbox
-        </a></li>
-        <li><a href="#">
-            <img src="./assets/images/map-pointer-icon.svg" alt="">
-            Contacts
-        </a></li>
-    </ul>
+    <div class="container">
+        <ul class="footer-lists">
+            <li><a class='footer-link' href="#">
+                <img src="./assets/images/home-icon.svg" alt="">
+                home
+            </a></li>
+            <li><a class='footer-link' href="#">
+                <img src="./assets/images/computer-icon.svg" alt="">
+                All Courses
+            </a></li>
+            <li><a class='footer-link' href="#">
+                <img src="./assets/images/sandbox-icon.svg" alt="">
+                Sandbox
+            </a></li>
+            <li><a class='footer-link' href="#">
+                <img src="./assets/images/map-pointer-icon.svg" alt="">
+                Contacts
+            </a></li>
+        </ul>
+    </div>
 </footer>
 </body>
 </html>
